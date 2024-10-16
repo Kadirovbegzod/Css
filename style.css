@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section_wrapper {
+    width: 1200px;
+
+    margin: auto;
+}
+
+
+section .section_item {
+
+    display: inline-block;
+
+    width: 49.6%;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+section .section_item img {
+    width: 100%;
+    box-shadow: 0 0 8px black;
+}
+
+section .section_item h2 {
+    padding: 20px;
+    font-size: 70px;
+}
+
+section .section_item p {
+    font-size: 20px;
+}
+
+section .section_item.section_right {
+    background-color: gainsboro;
+    padding: 50px;
+}
+
+.card_wrapper {
+    border: 2px solid red;
+    padding: 20px 15px 20px 20px ;
+    width: 1600px;
+margin: auto;
+
+
+}
+
+.card_wrapper div {
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 35px 35px 35px 50px;
+    display: inline-block;
+margin: 2px;
+}
+
+.card_wrapper div img {
+    align-items: center;
+
+    border-radius: 15px;
+}
+
+.card_wrapper div h3 {
+    text-align: center;
+}
+
+.card_wrapper p {
+    text-align: center;
+}
